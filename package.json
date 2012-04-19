@@ -2,11 +2,11 @@
   "author": "James Brumond <james@jbrumond.me> (http://jbrumond.me)",
   "name": "builder",
   "description": "A JS/CSS Build Utility",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/kbjr/node-crux"
+    "url": "https://github.com/kbjr/node-builder"
   },
   "bin": {
     "builder": "./bin/builder.js"

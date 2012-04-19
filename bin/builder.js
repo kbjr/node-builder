@@ -46,8 +46,8 @@ while (args.length) {
 	}
 }
 
-var builder = require(path.resolve(opts.buildfile));
-require(opts.buildfile).call(builder, builder);
+var builder = require('../builder-lib');
+require(path.resolve(opts.buildfile)).call(builder, builder);
 
 async.mapSeries(builder.getInstructions(), function(inst, done) {
 	
@@ -88,5 +88,7 @@ async.mapSeries(builder.getInstructions(), function(inst, done) {
 		
 	});
 	
+}, function() {
+	console.log('Build complete');
 });
 
