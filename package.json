@@ -1,6 +1,6 @@
 {
   "author": "James Brumond <james@jbrumond.me> (http://jbrumond.me)",
-  "name": "builder",
+  "name": "node-builder",
   "description": "A JS/CSS Build Utility",
   "version": "0.0.1",
   "preferGlobal": true,
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "async": "latest",
-    "cssmin": "latest",
+    "css-compressor": "latest",
     "uglify-js": "latest"
   },
   "devDependencies": {}

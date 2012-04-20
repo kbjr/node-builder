@@ -3,7 +3,7 @@
 var fs        = require('fs');
 var path      = require('path');
 var async     = require('async');
-var cssmin    = require('cssmin').cssmin;
+var cssmin    = require('css-compressor').cssmin;
 var uglifyjs  = require('uglify-js');
 
 var opts = {
