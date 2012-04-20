@@ -53,7 +53,7 @@ async.mapSeries(builder.getInstructions(), function(inst, done) {
 	
 	// Log..
 	if (opts.verbose) {
-		console.log((opts.minify ? 'Minifying' : 'Concatenating') + ' ' + inst.type + ' files to ' + inst.output);
+		console.log((inst.minify ? 'Minifying' : 'Concatenating') + ' ' + inst.type + ' files to ' + inst.output);
 		inst.input.forEach(function(file) {
 			console.log('  ' + file);
 		});
