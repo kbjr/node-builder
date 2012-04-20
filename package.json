@@ -2,7 +2,7 @@
   "author": "James Brumond <james@jbrumond.me> (http://jbrumond.me)",
   "name": "node-builder",
   "description": "A JS/CSS Build Utility",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preferGlobal": true,
   "repository": {
     "type": "git",
